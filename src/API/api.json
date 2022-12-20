@@ -1,0 +1,254 @@
+{
+    "about_game":"Bienvenue dans Sex is Strange !\nVous allez être confrontés à des mises en situations fictives.\nVotre objectif : adopter les bons comportements et éviter toute transmission de MST.\nAfin de mener à bien votre mission, vous pourrez choisir entre différentes réponses. Choisissez celle qui vous convient le mieux.\n\nCe jeu à pour but de sensibiliser sur les bons comportements et les maladies sexuellement transmissibles.\nCes évènements sont fictifs. Toute ressemblance avec des personnes ou des situations ayant existé ne saurait être que fortuite.",
+    "chapters" : [{
+        "id": 0,
+        "name": "Chapitre 1",
+        "stories":[{
+                "id":0,
+                "name":"Histoire 1",
+                "content":"Après avoir pratiqué l'adultère, Madelaine apprend que son amant ne s'était pas protégé or ce dernier a contracté le virus VIH.",
+                "question":"Doit-elle prévenir son époux Théo, même si elle risque de mettre son couple en péril ?",
+                "answers":[{"id":0,"text_button":"Oui, c'est préfèrable","redirect":1},{"id":1,"text_button":"Non, cela va certainement mettre fin au couple de Madelaine","redirect":2}],
+                "src": "../img/bedroom.png",
+                "end": false,
+                "id_explication": 0
+            },
+            {
+                "id":1,
+                "name":"Histoire 2",
+                "content":"Après avoir prévenu son conjoint : Theo et Madelaine tentent de trouver où et comment se faire dépister.",
+                "question":"Où peuvent-ils se faire dépister ?",
+                "answers":[{"id":0,"text_button":"Dans un laboratoire médical, par prise de sang.","redirect":3},{"id":1,"text_button":"Au Cap Blanc-Nez par un médecin traitant du coin","redirect":4}],
+                "src": "../img/CapBlancNez.png",
+                "end": false,
+                "id_explication": 0
+            },
+            {
+                "id":2,
+                "name":"Histoire 2",
+                "content":"Madelaine doute de sa séropositivité...",
+                "question":"Doit-elle aller se faire dépister ?",
+                "answers":[{"id":0,"text_button":"Oui","redirect":5},{"id":1,"text_button":"Non","redirect":6}],
+                "src": "../img/salon.png",
+                "end": false,
+                "id_explication": 0
+            },
+            {
+                "id":3,
+                "name":"Histoire 3",
+                "content":"Après s'être faits testés, Théo et Madelaine sont tous deux déclarés séropositifs.",
+                "question":"Devront-ils prendre un traitement toute leur vie ?",
+                "answers":[{"id":0,"text_button":"Oui, le traitement est à vie.","redirect":0},{"id":1,"text_button":"Le traitement dure 4 ans, après quooi ils ne seront plus séropositifs","redirect":1}],
+                "src": "../img/pharmacie.png",
+                "end": true,
+                "id_explication": 1
+            },
+            {
+                "id":4,
+                "name":"Histoire 3",
+                "content":"Théo et Madelaine se rendent chez un médecin du coin. Il informe le couple qu'il ne peut pas faire de test avec ses outils. Il leur conseille de prendre un rendez-vous en laboratoire médical.",
+                "question":"Doivent-il prendre rendez-vous dès que possible ?",
+                "answers":[{"id":0,"text_button":"Le couple peut prendre son temps pour se remettre de leurs émotions.","redirect":2},{"id":1,"text_button":"Non, il est préfèrable de se faire tester le plus rapidement possible.","redirect":3}],
+                "src": "../img/clodoflou.png",
+                "end": true,
+                "id_explication": 1,
+                "explication" : ""
+            },
+            {
+                "id":5,
+                "name":"Histoire 3",
+                "content":"Madelaine découvre qu'elle est séropositive",
+                "question":"Que doit-elle faire ?",
+                "answers":[{"id":0,"text_button":"Prévenir son conjoint et commencer un traitement au plus vite.","redirect":4},{"id":1,"text_button":"S'enfoncer dans son mensonge mais respecter son mari et ne plus avoir de rapport avec lui.","redirect":5}],
+                "src": "../img/salon.png",
+                "end": true,
+                "id_explication": 0,
+                "explication" : ""
+            },
+            {
+                "id":6,
+                "name":"Histoire 3", 
+                "content":"Madelaine a un rapport avec son conjoint mais elle a peur d'avoir transmis le VIH à son conjoint",
+                "question":"Doit-elle l'en informer ?",
+                "answers":[{"id":0,"text_button":"Oui","redirect":6},{"id":1,"text_button":"Non","redirect":7}],
+                "src": "../img/salon.png",
+                "end": true,
+                "id_explication": 0,
+                "explication" : ""
+            }
+        ],
+        
+    "explications":[
+                {
+        "id":0,
+        "name":"explication8",
+        "general_content":"CORRECT : Le traitement durera toute la vie de l'individu. Il lui sera possible d'avoir des rapports sexuels sans préservatif seulement après que son médecin l'autorise",
+        "src": "../img/ohtarretelaflou.png"
+        },
+        {
+        "id":1,
+        "name":"explication9",
+        "general_content":"INCORRECT : Le traitement durera toute la vie de l'individu. Il lui sera possible d'avoir des rapports sexuels sans préservatif seulement après que son médecin l'autorise",
+        "src":"../img/ohtarretelaflou.png"
+        },
+        {
+        "id":2,
+        "name":"explication10",
+        "general_content":"INCORRECT : il faut prendre contact le plus rapidement possible avec son médecin ",
+        "src":"../img/pharmacie.png"
+        },
+
+        {
+        "id":3,
+        "name":"explication11",
+        "general_content":"CORRECT : il faut prendre contact le plus rapidement possible avec son médecin ",
+        "src":"../img/pharmacie.png"
+        },
+        {
+        "id":4,
+        "name":"explication12",
+        "general_content":"CORRECT : Plus vite le traitement sera pris, moins le système immunitaire sera affaibli ! Prenez rendez-vous à l'hopitâl de la ville la plus proche afin de pouvoir commencer le traitement au plus tôt",
+        "src":"../img/6Bourgeois.png"
+        },
+        {
+        "id":5,
+        "name":"explication13",
+        "general_content":"INCORRECT : Plus vite le traitement sera pris, moins le système immunitaire sera affaibli ! Prenez rendez-vous à l'hopitâl de la ville la plus proche afin de pouvoir commencer le traitement au plus tôt",
+        "src":"../img/6Bourgeois.png"
+        },
+        {
+        "id":6,
+        "name":"explication14",
+        "general_content":"CORRECT : Plus vite il sera testé dans un laboratoire, mieux ce sera",
+        "src":"../img/Hopitalflou.png"
+        },
+        {
+        "id":7,
+        "name":"explication15",
+        "general_content":"INCORRECT : il faut qu'il se fasse tester au plus vite dans un laboratoire de sa ville",
+        "src":"../img/Place.png"
+        }
+    ]
+    },
+    {
+        "id": 1,
+        "name": "Chapitre 2",
+        "stories":[{
+                "id":0,
+                "name":"Histoire 1",
+                "content": "Après un rapport sexuel avec des moyens de contraception adaptées, Julien remarque un trou dans le préservatif.",
+                "question":"Que doivent-ils faire ?",
+                "answers":[{"id":0,"text_button":"Aller chercher la pillule du lendemain en pharmacie","redirect":1},{"id":1,"text_button":"Ce n'est pas grave, il n'y pas de risque.","redirect":2}],
+                "src": "../img/bedroomflou.png",
+                "end": false
+            },
+            {
+                "id":1,
+                "name":"Histoire 2",
+                "content":"La femme décide de prendre la pillule du lendemain.",
+                "question":"L'homme doit-il seulement aller chercher la pillule du lendemain ou aller chercher et se faire dépister avec sa partenaire aussi ?",
+                "answers":[{"id":0,"text_button":"Si la capote a craqué il y a un risque pour leur santé.","redirect":0},{"id":1,"text_button":"Il n'a que du sperme qui est passé, les MST ne vont pas passer à travers.","redirect":1}],
+                "src": "../img/pharmacie.png",
+                "end": true
+            },
+            {
+                "id":2,
+                "name":"Histoire 2",
+                "content":"La femme tombe enceinte mais ils ne veulent pas garder le bébé",
+                "question":"Que doivent-ils faire ?",
+                "answers":[{"id":0,"text_button":"Elle doit boire, fumer et ne pas manger sainement","redirect":2},{"id":1,"text_button":"La femme se rend à l'hopital pour se faire avorter.","redirect":3}],
+                "src": "../img/Hopitalflou.png",
+                "end": true
+            }
+        ],
+        
+            "explications":[
+            {
+            "id":0,
+            "name":"explication8",
+            "general_content":"INCORRECT : Une seule brêche peut suffir pour attraper une MST. Ils doivent aller se faire dépister dans un laboratoire d'une ville proche.",
+            "src": "../img/place.png"
+            },
+            {
+            "id":1,
+            "name":"explication9",
+            "general_content":"CORRECT : Une seule brêche peut suffir pour attraper une MST. Ils doivent aller se faire dépister. Ils doivent aller se faire dépister dans un laboratoire d'une ville proche.",
+            "src":"../img/place.png"
+            },
+            {
+            "id":2,
+            "name":"explication10",
+            "general_content":"INCORRECT : il faut aller voir des spécialistes pour des opérations de ce genre",
+            "src":"../img/Hopitalflou.png"
+            },
+
+            {
+            "id":3,
+            "name":"explication11",
+            "general_content":"CORRECT : il faut aller voir des spécialistes pour des opérations de ce genre",
+            "src":"../img/Hopitalflou.png"
+            }]
+        },
+        {
+            "id": 1,
+            "name": "Chapitre 3",
+            "stories":[{
+                    "id":0,
+                    "name":"Histoire 1",
+                    "content": "Un couple pratique souvent la fellation. Lors de l'acte, le fluide rentre souvent dans la bouche",
+                    "question":"Est'ce que la femme devrait s'inquiéter de la possibilité d'avoir le VIH ?",
+                    "answers":[{"id":0,"text_button":"Oui","redirect":1},{"id":1,"text_button":"Non","redirect":2}],
+                    "src": "../img/bedroomflou.png",
+                    "end": false
+                },
+                {
+                    "id":1,
+                    "name":"Histoire 2",
+                    "content":"La femme décide d'aller se faire dépister au VIH",
+                    "question":"Est-ce une bonne décision ?",
+                    "answers":[{"id":0,"text_button":"Oui car il y a possibilité de l'avoir","redirect":0},{"id":1,"text_button":"Non pas besoin","redirect":1}],
+                    "src": "../img/pharmacie.png",
+                    "end": true
+                },
+                {
+                    "id":2,
+                    "name":"Histoire 2",
+                    "content":"La femme tombe enceinte mais ils ne veulent pas garder le bébé",
+                    "question":"Que doivent-ils faire ?",
+                    "answers":[{"id":0,"text_button":"Elle doit boire, fumer et ne pas manger sainement","redirect":2},{"id":1,"text_button":"La femme se rend à l'hopital pour se faire avorter.","redirect":3}],
+                    "src": "../img/Hopitalflou.png",
+                    "end": true
+                }
+                ],
+                "explications":[
+                        {
+                "id":0,
+                "name":"explication8",
+                "general_content":"INCORRECT : Le traitement durera toute la vie de l'individu. Il lui sera possible d'avoir des rapports sexuels sans préservatif seulement après que son médecin l'autorise",
+                "src": "../img/ohtarretelaflou.png"
+                },
+                {
+                "id":1,
+                "name":"explication9",
+                "general_content":"INCORRECT : Le traitement durera toute la vie de l'individu. Il lui sera possible d'avoir des rapports sexuels sans préservatif seulement après que son médecin l'autorise",
+                "src":"../img/ohtarretelaflou.png"
+                },
+                {
+                "id":2,
+                "name":"explication10",
+                "general_content":"INCORRECT : Il faut aller voir des spécialistes pour des sujets et interventions aussi complexes",
+                "src":"../img/pharmacie.png"
+                },
+
+                {
+                "id":3,
+                "name":"explication11",
+                "general_content":"CORRECT : Il faut aller voir des spécialistes pour des sujets et interventions aussi complexes",
+                "src":"../img/pharmacie.png"
+                }
+            ]
+        }
+    ],
+    "end_src":"../img/Boitenuitflou.png"
+}
+
