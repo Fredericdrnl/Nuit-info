@@ -2,7 +2,7 @@
 <img src="./img/game_logo.png">
 </div>
 
-Authors : <a src="https://github.com/Pierrecrp1">Pierre CREPIN</a>, <a src="https://github.com/Tom6213">Tom VALLART</a>, <a src="https://github.com/Fredericdrnl">Frédéric DOURNEL</a>
+> Authors : [Pierre CREPIN](https://github.com/Pierrecrp1), <a src="https://github.com/Tom6213">Tom VALLART</a>, <a src="https://github.com/Fredericdrnl">Frédéric DOURNEL</a>
 
 ## Goal of this project 
 
