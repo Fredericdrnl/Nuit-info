@@ -1,27 +1,46 @@
-# nuit-info
+<div align="center">
+<img src="./img/game_logo.png">
+</div>
 
-## Recommended IDE Setup
+> Authors : <a src="https://github.com/Pierrecrp1">Pierre CREPIN</a>, <a src="https://github.com/Tom6213">Tom VALLART</a>, <a src="https://github.com/Fredericdrnl">Frédéric DOURNEL</a>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Goal of this project 
 
-## Customize configuration
+This project was made during the night of computing 2022 event when we have to made a website in one night for prevention on the subject of STDs. For that we took the choice to make a choice game with consequences on the answers chosen.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+<div align="center">
+<img src="./img/logo_n2i_color_moon.png">
+</div>
 
-## Project Setup
+<sub>the night of computing event : https://www.nuitdelinfo.com </sub>
 
-```sh
+## Technologies use ⚙️
+
+For this project, we use the javascript framework *Vue.js*.
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" height="100"/>
+</div>
+
+
+<sub>Vue.js : https://vuejs.org</sub>
+
+## How to use ❓
+
+### Project Setup
+
+```
 npm install
 ```
 
 ### Compile and Hot-Reload for Development
 
-```sh
+```
 npm run dev
 ```
 
 ### Compile and Minify for Production
 
-```sh
+```
 npm run build
 ```
